@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Interno</title>
+    <style>
+        .div-externa {
+            background-color: #E6E6FA;
+            width: 600px;
+            height: 600px;
+        }
+
+        .div-interna {
+            background-color: #AFEEEE;
+            width: 50%;
+            height: 50%;
+        }
+
+        .paragrafo {
+            color: #000080;
+            background-color: #F08080;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        .div-abaixo {
+            width: 50%;
+            height: 50vh;
+            background-color: #ADD8E6;
+        }
+
+        .div-filha {
+            width: 75vw;
+            height: 50%;
+            background-color: #90EE90;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="div-externa">
+        <div class="div-interna">
+            <p class="paragrafo">
+                Texto no parágrafo
+            </p>
+        </div>
+    </div>
+
+    <div class="div-abaixo">
+        <div class="div-filha">
+        </div>
+    </div>
+
+</body>
+
+</html>
